@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: edev
+
+---
+spring:
+  application:
+    name: eureka-config-dev
+  profiles: edev
+
+---
+spring:
+  application:
+    name: eureka-config-test
+  profiles: etest

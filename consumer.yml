@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: cdev
+
+---
+spring:
+  application:
+    name: consumer-config-dev
+  profiles: cdev
+
+---
+spring:
+  application:
+    name: consumer-config-test
+  profiles: ctest

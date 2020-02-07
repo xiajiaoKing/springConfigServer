@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: pdev
+
+---
+spring:
+  application:
+    name: provider-config-dev
+  profiles: pdev
+
+---
+spring:
+  application:
+    name: provider-config-test
+  profiles: ptest
